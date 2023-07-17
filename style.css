@@ -112,6 +112,36 @@ margin-left: 15px;
     text-align: center;
     padding: 60px  0px;
 }
+.popular-ico {
+    color: rgba(224, 44, 109, 0.87);
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 23px;
+}
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    margin-top: 77px;
+}
+.product-contant h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.product-contant p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 11px;
+}
+button.btn- {
+    border: none;
+    background: #E02C6D;
+    color: white;
+    padding: 12px 24px;
+    text-transform: capitalize;
+}
 
 /* responsive medium devices */
 @media screen and (max-width:576px) {
