@@ -1,7 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    /* font-family: 'Poppins', sans-serif; */
+  
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 1140px;
+    margin: auto;
 }
 img{
     width: 100%;
@@ -15,25 +23,18 @@ img{
     padding: 25px 0px;
 
 }
-.header-logo{
 
-}
 .header-logo h4{
     font-size: 24px;
 
 }
-.header-menu{
 
-}
 .header-menu ul{
     list-style: none;
     display: flex;
 
 }
-.header-menu ul li{
-   
 
-}
 .header-menu ul li a{
 text-decoration: none;
 text-transform: uppercase;
@@ -48,9 +49,7 @@ margin-left: 15px;
     padding: 100px;
 
 }
-.bannar-inner-content{
 
-}
 .bannar-inner-content h3 {
     font-size: 50px;
     margin-bottom: 10px;
@@ -93,6 +92,26 @@ margin-left: 15px;
 .bannar-sponser img{
     width: 80px 
 }
+.popular-text{
+
+}
+.popular-mai {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 30px; */
+    column-gap: 50px;
+    row-gap: 32px;
+}
+.popular-box {
+    background: white;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px 12px 120px 12px;
+    border-radius: 9px;
+}
+.popular-text {
+    text-align: center;
+    padding: 60px  0px;
+}
 
 /* responsive medium devices */
 @media screen and (max-width:576px) {
@@ -107,4 +126,9 @@ margin-left: 15px;
     .bannar-sponser{
         grid-template-columns: repeat(4, 1fr);
     }
+    .popular-mai {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
+
